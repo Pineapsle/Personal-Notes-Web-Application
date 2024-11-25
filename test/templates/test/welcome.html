@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 style="font-size: 4rem; font-family: Helvetica;"> human interaction </h1>
+    <p style="font-size: 1rem;"> {{today}} </p>
+    <a href="{% url 'notes.list' %}" class="btn btn-primary">Personality Test</a>
+{% endblock %}
